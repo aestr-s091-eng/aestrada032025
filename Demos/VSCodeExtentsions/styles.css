@@ -1,0 +1,11 @@
+/* This is a CSS comment */
+/* ? This is a question comment*/
+/* ! This is a alert comment*/
+/* TODO This is a todo comment*/
+/* * This is a regular comment */
+
+body{background-color: skyblue;}
+
+h1{color: dimgrey;}
+
+ul{font-family: 'Courier New', Courier, monospace;}

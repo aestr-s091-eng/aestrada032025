@@ -1,0 +1,181 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #af818a;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+.container {
+  max-width: 75rem;
+  min-height: 10rem;
+  margin: auto;
+  background-color: white;
+  padding: 1rem;
+}
+.outercontainer {
+  max-width: 75rem;
+  min-height: 10rem;
+  margin: auto;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+}
+#pageheader {
+  background-color: steelblue;
+  min-height: auto;
+  padding: 0.25rem;
+}
+
+#pageheader nav {
+  text-align: center;
+}
+#logo {
+  background-image: url(Images/logosmall.png);
+  width: 6.25rem;
+  height: 6.25rem;
+}
+#pageheader .container {
+  min-height: auto;
+}
+#media {
+  background-color: #c6324c;
+  min-height: 10rem;
+  background-image: url(Images/Portfolio/mediaimg.png);
+  background-size: cover;
+  aspect-ratio: 16 / 9;
+  max-width: 1424px;
+  max-height: 801;
+  display: block;
+  margin: auto;
+}
+/* page content begin */
+#pagecontent {
+  background-color: #93d0c7;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#pagecontent .outercontainer {
+  text-align: center;
+}
+blockquote {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+}
+blockquote + span {
+  text-align: right;
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+#pagecontent .innercontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 2rem;
+}
+#pagecontent .innercontainer #text {
+  flex: 1;
+}
+#pagecontent .innercontainer #Miku {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+#pagecontent .innercontainer #Miku img {
+  max-width: 70%;
+  min-width: 250px;
+}
+@media screen and (max-width: 768px) {
+  #pagecontent .innercontainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* Page content end */
+#career {
+  background-color: #c6324c;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#career .innercontainer {
+  display: flex;
+  padding: 2rem;
+  gap: 10%;
+  line-height: 2rem;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+}
+#career img {
+  max-width: 20%;
+  min-width: 150px;
+}
+#semester1 {
+  background-color: #ffd952;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#semester1 .innercontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  font-size: 22px;
+  line-height: 2rem;
+}
+#semester1 .innercontainer img {
+  max-width: 25%;
+  min-width: 125px;
+}
+#semester2 {
+  background-color: #af818a;
+  min-height: 10rem;
+  padding: 1rem;
+}
+/* #96dc8b (Gumi color code) */
+#pagefooter {
+  background-color: #96dc8b;
+  min-height: auto;
+  padding: 1rem;
+}
+#pagefooter .container {
+  min-height: auto;
+  text-align: center;
+}
+#subfooter {
+  background-color: #c6324c;
+  min-height: 5rem;
+  padding: 1rem;
+}
+#subfooter .container {
+  text-align: center;
+  display: flex;
+  gap: 10%;
+  min-height: auto;
+}
+#tasty {
+  width: 30%;
+  height: 100%;
+  max-width: 12rem;
+  max-height: 15rem;
+}
+#copyright {
+  padding: 1rem;
+}
+audio {
+  border: 5px solid #c6324c;
+  background-color: #c6324c;
+  display: block;
+  margin: auto;
+}
+a {
+  color: red;
+}
