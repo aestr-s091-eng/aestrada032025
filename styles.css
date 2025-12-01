@@ -150,6 +150,15 @@ blockquote + span {
   min-height: auto;
   text-align: center;
 }
+#aifooter {
+  padding: 1rem;
+  background-color: light yellow;
+  min-height: auto;
+}
+#aifooter .container {
+  min-height: auto;
+  text-align: center;
+}
 #subfooter {
   background-color: #c6324c;
   min-height: 5rem;
