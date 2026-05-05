@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        /* Mobile first design */
+        body{
+            background-color: steelblue;
+        }
+        h1, h2 {
+            color: white;
+        }
+
+        /* Tablet  design */
+        @media screen and (min-width: 700px) {
+            body {
+                background-color: crimson;
+            }
+            h1, h2 {
+                color: black;
+            }
+        }
+
+        @media screen and (min-width: 900px) {
+            body {
+                background-color: aquamarine;
+            }
+            h1, h2 {
+                color: burlywood;
+            }
+        }
+
+        @media screen and (min-width: 1200px) {
+            body {
+                background-color: antiquewhite;
+            }
+            h1, h2 {
+                color: brown;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Media Queries</h1>
+    <h2>Armando Estrada</h2>
+</body>
+</html>

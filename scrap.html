@@ -1,0 +1,14 @@
+            <li>    <button onclick="toggleTheme()">Switch theme</button>
+    <script>
+        function toggleTheme() {
+            // Select the <link> element
+            let theme = document.getElementById('theme');
+
+            // Toggle between light.css and dark.css
+            if (theme.getAttribute('href') == 'styles.css') {
+                theme.setAttribute('href', 'ado.css');
+            } else {
+                theme.setAttribute('href', 'styles.css');
+            }
+        }
+    </script></li>

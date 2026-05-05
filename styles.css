@@ -1,0 +1,199 @@
+/* Mobile styles - defaults */
+:root {
+  --primary-color: #1F7576;
+  --secondary-color: #317B89;
+  --tertiary-color: #285354;
+  --main-font: arial;
+}
+
+body {
+background-color: #323333;
+}
+
+/* Fonts */
+.roboto-mono-header {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+body  {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+
+#pagefooter, #aifooter{
+  height: 2.5rem;
+  min-height: 0 !important;
+}
+
+#subfooter {
+  height: fit-content;
+  min-height: 0 !important;
+}
+
+#subfooter {
+background-color: var(--secondary-color);
+padding: 1rem;
+text-align: center;
+}
+
+.container {
+max-width: 75rem;
+min-height: 10rem;
+margin: auto;
+background-color: white;
+padding: 1rem;
+}
+
+
+
+#pageheader {
+background-color: var(--primary-color);
+min-height: auto;
+padding: .25rem;
+}
+
+#logo {
+background-image: url(Images/logosmall.png);
+width: 6.25rem;
+height: 6.25rem;
+border: 1px solid none;
+}
+
+#pageheader .container {
+min-height: auto;
+}
+
+
+
+#pageheader nav ul li {
+  border: 2px solid silver;
+  padding: 0.3rem;
+  margin: 2px;
+  background-color: aliceblue;
+  list-style-type: none;
+}
+#pageheader li:hover{
+  background-color: #3c96a9;
+  transition: 0.5s ease;
+}
+#pageheader a:hover{
+  color: #11303d;
+  transition: 0.5s ease;
+}
+
+#media {
+background-color: lightblue;
+min-height: 10rem;
+padding: 1rem;
+background-image: url(Images/heroimage2.jpg);
+background-size: cover;
+aspect-ratio: 16 / 9;
+}
+
+#career {
+background-color: var(--secondary-color);
+min-height: 10rem;
+padding: 1rem;
+}
+
+#pagecontent {
+background-color: var(--tertiary-color);
+min-height: 10rem;
+padding: 1rem;
+}
+
+#semester1 {
+background-color: var(--primary-color);
+min-height: 10rem;
+padding: 1rem;
+}
+
+#semester2 {
+background-color: var(--secondary-color);
+min-height: 10rem;
+padding: 1rem;
+}
+
+#pagefooter {
+background-color: var(--tertiary-color);
+min-height: 1rem;
+padding: 1rem;
+text-align: center;
+}
+
+#aifooter {
+background-color: var(--primary-color);
+min-height: 2.5rem;
+padding: 1rem;
+text-align: center;
+}
+
+
+
+audio {
+border: 5px solid var(--secondary-color);
+background-color: var(--secondary-color);
+display: block;
+margin: auto;
+}
+
+/* Tablet styles - defaults */
+@media screen and (min-width: 700px) {
+  #pageheader nav ul li {
+    display: inline;
+  }
+  #pageheader nav ul {
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  }
+  #aifooter {
+    background-color: var(--primary-color);
+    min-height: 1rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  html{
+  height: 290%;
+}
+  #semesters{
+  display: flex;
+  flex-basis: 100%;
+}
+#semester1, #semester2{
+  flex-basis: 50%;
+  background-color: var(--primary-color);
+}
+#semester1 .container{
+  height: 89%;
+}
+}
+
+/* Desktop styles - defaults */
+@media screen and (min-width: 1000px) {
+  #pageheader nav ul li {
+    border: 2px solid silver;
+    padding: 1rem;
+    margin: 2px;
+    background-color: aliceblue;
+  }
+  #media{
+    background-image: url(Images/editedimage.jpg);
+    background-size:contain;
+    background-repeat: no-repeat ;
+    justify-content: flex-start;
+    min-width: 1920px;
+    height: 510px;
+  }
+  
+}
