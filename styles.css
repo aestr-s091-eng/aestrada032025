@@ -97,6 +97,8 @@ padding: 1rem;
 background-image: url(Images/heroimage2.jpg);
 background-size: cover;
 aspect-ratio: 16 / 9;
+/* height: 60vh;
+background-position: center right; */
 }
 
 #career {
@@ -123,15 +125,35 @@ min-height: 10rem;
 padding: 1rem;
 }
 
-#pagefooter {
+#worksamples {
 background-color: var(--tertiary-color);
+min-height: 10rem;
+padding: 1rem;
+}
+
+#certificates {
+background-color: var(--primary-color);
+min-height: 10rem;
+padding: 1rem;
+}
+
+#certificates ul {
+list-style-type: none;
+}
+
+#certificates i {
+color: darkorange;
+}
+
+#pagefooter {
+background-color: var(--secondary-color);
 min-height: 1rem;
 padding: 1rem;
 text-align: center;
 }
 
 #aifooter {
-background-color: var(--primary-color);
+background-color: var(--tertiary-color);
 min-height: 2.5rem;
 padding: 1rem;
 text-align: center;
