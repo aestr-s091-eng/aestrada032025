@@ -131,6 +131,10 @@ min-height: 10rem;
 padding: 1rem;
 }
 
+#worksamples ul {
+list-style-type: none;
+}
+
 #certificates {
 background-color: var(--primary-color);
 min-height: 10rem;
@@ -141,9 +145,6 @@ padding: 1rem;
 list-style-type: none;
 }
 
-#certificates i {
-color: darkorange;
-}
 
 #pagefooter {
 background-color: var(--secondary-color);
